@@ -3,8 +3,7 @@
 #include <math.h>
 
 
-int main(void)
-{
+int main(void) {
   int q;
   float a, b, c, P;
   printf("Area and perimeter for triangle (type 0), rectangle (type 1) or circle (type 2)?\n");
