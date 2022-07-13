@@ -6,9 +6,9 @@ int main()
     int d1, m1, y1, d2, m2, y2;
     int days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int days_in_month_v[12] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    printf("Enter first date (dd.mm.yyyy): ");
+    printf("Enter first date (dd.mm.yyyy): \n");
     scanf("%d.%d.%d", &d1, &m1, &y1);
-    printf("Enter second date (dd.mm.yyyy): ");
+    printf("Enter second date (dd.mm.yyyy): \n");
     scanf("%d.%d.%d", &d2, &m2, &y2);
 
     if (y1 < 1 || y2 < 1 || m1 < 1 || m1 > 12 || m2 < 1 || m2 > 12) {

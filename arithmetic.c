@@ -3,10 +3,11 @@
 #include <math.h>
 
 
-int main() {
+int main()
+{
     float a, b; char sign;
     printf("Welcome to arithmetic calculator! List of available operations: {+,-,*,/,^}\n");
-    printf("Enter your arithmetic opetation on two numbers here (for example: 2 + 3):");
+    printf("Enter your arithmetic opetation on two numbers here (for example: 2 + 3):\n");
     scanf("%f %c %f", &a, &sign, &b);
     if (sign == '0') {
         printf("Bye");
