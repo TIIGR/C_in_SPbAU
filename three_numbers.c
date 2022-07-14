@@ -6,7 +6,7 @@
 int main()
 {
     int i, j, k;
-    printf("Please, enter your three-digit positive number:\n");
+    printf("Please, enter your three-digit positive number: ");
     scanf("%d", &k);
     i = 0; j = k;
     while(j != 0) {
@@ -14,7 +14,7 @@ int main()
         i++;
     }
     if (i != 3 || k < 0) {
-        printf("Incorrect data!\n");
+        printf("Incorrect data!");
         return -1;
     } else {
         int a = k / 100;

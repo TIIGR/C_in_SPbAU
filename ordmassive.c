@@ -17,7 +17,7 @@ int main()
 { 
     int x, prime[] = {1, 2, 3, 5, 7, 9, 11, 13}; 
     int n = sizeof(prime) / sizeof(prime[0]);
-    printf("Enter you'r number:\n");
+    printf("Enter you'r number: ");
     scanf("%d", &x);
     int result = binarySearch(prime, 0, n - 1, x); 
     (result == -1) ? printf("The element is not present in array") 

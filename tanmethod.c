@@ -10,13 +10,13 @@ int main()
 {
     float xn, eps;
     printf ("Let's find the roots of ln(x)*cos(x).\n");
-    printf ("Enter xn to continue: \n");
+    printf ("Enter xn to continue: ");
     scanf ("%f",&xn);
     if (xn <= 0) {
-        printf("Incorrect data!\n");
+        printf("Incorrect data!");
         return -1;
     }
-    printf("Epsilon:\n");
+    printf("Epsilon: ");
     scanf("%f", &eps);
     float x1 = xn - f(xn)/df(xn);
     float x0 = xn;

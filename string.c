@@ -14,7 +14,7 @@ int strlen2(char *str)
 int main()
 {
     char str[128];
-    printf("Enter string: \n");
+    printf("Enter string: ");
     gets(str);
     printf("strlen() result = %i\n", strlen(str));
     printf("strlen2() result = %i\n", strlen2(str));

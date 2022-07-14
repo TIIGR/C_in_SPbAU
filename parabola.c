@@ -12,9 +12,9 @@ int main()
     int s;
     float a,b,c,k,eps,x=0;
     printf ("Let's find the roots of x*x+6*x-3.\n");
-    printf ("Enter [a,b] to continue: \n");
+    printf ("Enter [a,b] to continue: ");
     scanf ("%f %f",&a,&b);
-    printf("Epsilon:\n");
+    printf("Epsilon: ");
     scanf("%f", &eps);
     if (f(a)*f(b) <= 0) {
         while (fabs(b-a)>eps) {
