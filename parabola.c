@@ -3,9 +3,7 @@
 #include <ctype.h>
 #include <math.h>
      
-double f(float x) {
-    return x*x+6*x-3;
-}
+double f(float x) {return x*x+6*x-3;}
  
 int main()
 {

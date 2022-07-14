@@ -12,7 +12,8 @@ int binarySearch(int prime[], int l, int r, int x)
         return binarySearch(prime, mid + 1, r, x); 
     } 
     return -1; 
-}  
+}
+
 int main() 
 { 
     int x, prime[] = {1, 2, 3, 5, 7, 9, 11, 13}; 
