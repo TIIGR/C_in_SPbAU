@@ -2,8 +2,8 @@
 #include <string.h>
  
  
- int main()
- {
+int main()
+{
     int i;
     char *months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
     printf("Enter number of month: ");
@@ -15,4 +15,4 @@
         printf("Incorrect data!");
         return -1;
     }
- }
+}
