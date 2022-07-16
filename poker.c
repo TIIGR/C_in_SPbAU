@@ -148,10 +148,10 @@ void print_detected_combination(poker_card hand[], unsigned int size)
         if (hand[i].value == hand[i + 1].value || hand[i].value == JOKER || hand[i + 1].value == JOKER) {
             repeat_value++;
             if ((hand[i].value == hand[i + 1].value) &&
-            (hand[i + 1].value == hand[i + 2].value)) {set++;}
+            (hand[i + 1].value == hand[i + 2].value)) set++;
             if ((hand[i].value == hand[i + 1].value) &&
                 (hand[i + 1].value == hand[i + 2].value) &&
-                (hand[i + 2].value == hand[i + 3].value)) {kare++;}
+                (hand[i + 2].value == hand[i + 3].value)) kare++;
         }
         if (hand[i].lear == hand[i + 1].lear || hand[i].value == JOKER || hand[i + 1].value == JOKER) {
             repeat_lear++;
