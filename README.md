@@ -1,8 +1,8 @@
 # Лабораторный практикум 2022 по языку C.
 
-1 geoshapes
+1) geoshapes
 
-2.1 three_numbers
+2.1) three_numbers
 
 2.2 string
 
